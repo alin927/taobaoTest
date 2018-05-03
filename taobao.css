@@ -13,6 +13,7 @@ html,body{
 .top-nav{
     height:35px;
     width:100%;
+    border:1px solid #eee;
 }
 
 
@@ -20,7 +21,6 @@ html,body{
     height:35px;
     width:1190px;
     margin:0px auto;
-    boder:1px solid #eee;
 }
 
 .top-nav .top-nav-content .top-nav-left{
@@ -54,7 +54,17 @@ html,body{
     color:#ddd;
 }
 
+.top-nav .top-nav-content .bgpic{
+    display:inline-block;
+    width:6px;
+    height:3px;
+    vertical-align: middle;/*垂直居中*/
+    background-size:100% 100%;
+}
 
+.top-nav .top-nav-content .xsjpic{
+    background-image: url('img/xsj.png');
+}
 
 
 
