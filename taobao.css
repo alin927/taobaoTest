@@ -20,7 +20,7 @@ html,body{
     height:35px;
     width:1190px;
     margin:0px auto;
-    color:#6c6c6c;
+    boder:1px solid #eee;
 }
 
 .top-nav .top-nav-content .top-nav-left{
@@ -33,13 +33,32 @@ html,body{
     float:left;
     line-height: 35px;
     padding:0px 8px;
+}
+.top-nav .top-nav-content li a{
+    color:#6c6c6c;
     font-size:12px;
 }
 
-.top-nav .top-nav-content .top-nav-menu:hover{
+.top-nav .top-nav-content li a:hover,
+.top-nav .top-nav-content .login
+{
     color:#f40;
 }
 
-.top-nav .top-nav-content .top-nav-left .logon{
-    color:#f40;
+.top-nav .top-nav-content .china{
+    color:#3c3c3c;
+    font-size:12px;
 }
+
+.top-nav .top-nav-content .cutline{
+    color:#ddd;
+}
+
+
+
+
+
+
+
+
+
