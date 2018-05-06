@@ -97,6 +97,7 @@ html,body{
     background-color:#fff;
     width:100%;
     height:97px;
+    padding-top:24px;
 }
 
 .top-search .top-search-content{
@@ -106,7 +107,7 @@ html,body{
 }
 
 
-.top-search .top-search-content a{
+.top-search .top-search-content .top-search-logo a{
     float:left;
     width:190px;
     height:80px;
@@ -119,7 +120,6 @@ html,body{
 }
 
 .top-search .top-search-content .top-search-main{
-    margin-top:15px;
     margin-left:218px;
     margin-right:145px;
     height:97px;
@@ -128,17 +128,127 @@ html,body{
 
 
 .top-search .top-search-content .top-search-main .tsm-scopenav{
-    color:#f40;
-    font-size:14px;
-    height:22px;
-    margin-left:17px;
+    margin-top:5px;
+    font-size:12px;
+    padding-left:17px;
+    height:20px;
 }
 
-.top-search .top-search-content .top-search-main li{
+
+
+.top-search .top-search-content .top-search-main .tsm-scopenav li{
     float:left;
-    margin:3px;
+    color:#f40;
+    line-height:20px;
+    font-weight: 700;
+    width:35px;
+    text-align: center;
+}
+
+.top-search .top-search-content .top-search-main .tsm-scopennav li:hover{
+    background-color:#ffeee5;
+}
+
+.top-search .top-search-content .top-search-main .select{
+    background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    color:#fff;
+    border-radius: 8px 8px 0 0;
+}
+
+.top-search .top-search-content .top-search-main .tsm-search-main{
+    position:relative;
+    height:40px;
+    width:627px;
+    border:1px solid black;
+}
+
+.top-search .top-search-content .top-search-main .search-button-box{
+    position: absolute;
+    right:0px;
+    top:0px;
+    height:40px;
+    width:74px;
+    
+}
+
+.top-search .top-search-content .top-search-main .search-button{
+    border:none;
+    font-size:18px;
+    font-weight:700;
+    background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    color:#fff;
+    height:100%;
+    width:100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.top-search .top-search-content .top-search-main .search-box{
+    height:37px;
+    width:600px;
+    border:2px solid #f40;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right:none;
+    vertical-align:middle;
+    overflow: hidden;
+}
+
+.top-search .top-search-content .top-search-main .search-box input{
+    padding:5px 0;
+    text-indent: 30px;/*文本首行缩进*/
+    height:28px;
+    width:472px;
+    overflow: hidden;
+    border:none;
+    outline:0;
+}
+
+.top-search .top-search-content .top-search-main .tsm-search-main a{
+    position: absolute;
+    height:100%;
+    width:100px;
+    top:0px;
+    right:50px;
+    text-align: center;
+}
+
+.top-search .top-search-content .top-search-main .tsm-search-main .camare-pic{
+    display:inline-block;
+    height:20px;
+    width:25px;
+    background-image:url('img/camera.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    margin:9px 0;
+}
+
+
+.top-search .top-search-content .top-search-main .tsm-search-main .magnify-box{
+    position:absolute;
+    left:14px;
+    top:11px;
+    height:15px;
+    width:15px;
+}
+
+.top-search .top-search-content .top-search-main .tsm-search-main .magnigy-pic{
+    display:inline-block;
+    height:100%;
+    width:100%;
+    text-align:center;
+    background:url('img/fdj.png') no-repeat;
+    background-size:100% 100%;
 }
 
 
 
+.top-search .top-search-content .top-search-main .tsm-hots{
+    height:20px;
+    border:1px solid black;
+}
+
+.top-search .top-search-content .top-search-main .tsm-choose .tsm-hots-nav{
+    font-size:12px;
+}
 
