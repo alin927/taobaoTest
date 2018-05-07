@@ -149,7 +149,7 @@ html,body{
     background-color:#ffeee5;
 }
 
-.top-search .top-search-content .top-search-main .select{
+.top-search .top-search-content .top-search-main .tsm-scopenav .select{
     background:linear-gradient(to right,#ff9000 0,#ff5000 100%);
     color:#fff;
     border-radius: 8px 8px 0 0;
@@ -159,7 +159,6 @@ html,body{
     position:relative;
     height:40px;
     width:627px;
-    border:1px solid black;
 }
 
 .top-search .top-search-content .top-search-main .search-button-box{
@@ -184,7 +183,7 @@ html,body{
 }
 
 .top-search .top-search-content .top-search-main .search-box{
-    height:37px;
+    height:36px;
     width:600px;
     border:2px solid #f40;
     border-top-left-radius: 20px;
@@ -244,11 +243,50 @@ html,body{
 
 
 .top-search .top-search-content .top-search-main .tsm-hots{
+    padding-top:5px;
     height:20px;
-    border:1px solid black;
+    width:627px;
+    /* border:1px solid black; */
+    font-size:12px;
+    line-height: 20px;
 }
 
-.top-search .top-search-content .top-search-main .tsm-choose .tsm-hots-nav{
-    font-size:12px;
+
+.top-search .top-search-content .top-search-main .tsm-hots .tsm-hots-nav li{
+    float:left;
+    padding:0 4px;
+}
+
+.top-search .top-search-content .top-search-main .tsm-hots a{
+    color:#666;
+}
+
+.top-search .top-search-content .top-search-main .tsm-hots a:hover{
+    color:#f40;
+}
+
+.top-search .top-search-content .top-search-main .tsm-hots #more{
+    float:right;
+}
+
+.top-search .top-search-content .top-search-main .tsm-hots #more span{
+    margin:0 4px;
+    vertical-align: middle;
+}
+
+.top-search .top-search-content .top-search-main .tsm-hots .yjtpic{
+    display:inline-block;
+    width:5px;
+    height:5px;
+    vertical-align: middle;
+    background-size:100% 100%;
+    background-image: url('img/yjt.png');
+}
+
+
+.top-search .top-search-content .top-search-main .top-search-qrcode{
+    border:5px solid black;
+    width:62px;
+    height:62px;
 }
 
