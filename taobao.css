@@ -120,6 +120,7 @@ html,body{
 }
 
 .top-search .top-search-content .top-search-main{
+    position: relative;
     margin-left:218px;
     margin-right:145px;
     height:97px;
@@ -159,6 +160,7 @@ html,body{
     position:relative;
     height:40px;
     width:627px;
+    /* border:1px solid black; */
 }
 
 .top-search .top-search-content .top-search-main .search-button-box{
@@ -285,8 +287,22 @@ html,body{
 
 
 .top-search .top-search-content .top-search-main .top-search-qrcode{
-    border:5px solid black;
+    position: absolute;
+    right:-10px;
+    top:4px;
+    border:1px solid #f40;
+    width:74px;
+    height:88px;
+}
+
+.top-search .top-search-content .top-search-main .top-search-qrcode .qrcode-pic{
+    display:inline-block;
     width:62px;
     height:62px;
+    background:url('img/ewm.png') no-repeat;
+    background-size:100% 100%;
+    
 }
+
+
 
