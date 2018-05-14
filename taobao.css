@@ -371,7 +371,7 @@ html,body{
 
 .content-main .content-main-l .cml-top{
     height:522px;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 .content-main .content-main-l .cml-top .left-nav{
     float:left;
@@ -406,12 +406,7 @@ html,body{
     color:#666;
 }
 
-.content-main .content-main-r{
-    float:right;
-    width:280px;
-    height:100%;
-    border:1px solid black;
-}
+
 
 .content-main .cml-top .center-pic{
     float:left;
@@ -503,7 +498,7 @@ html,body{
 .content-main .content-main-l .cml-headlines{
     width:880px;
     height:75px;
-    border:1px solid black;
+    /* border:1px solid black; */
     background-color:#fff;
     margin-top:10px;
     padding:10px;
@@ -561,11 +556,76 @@ html,body{
     /* border:1px solid black; */
 }
 
+.content-main .content-main-r{
+    float:right;
+    width:280px;
+    height:100%;
+    background-color:#fff;
+    border:1px solid black;
+}
 
+.content-main .content-main-r .cmr-user{
+    height:132px;
+    background:url('img/bg.png') no-repeat;
+    background-size:100% 100%;
 
+}
 
+.content-main .content-main-r .cmr-user .user-bg{
+    height:91px;
+    width:280px;
+}
 
+.content-main .content-main-r .cmr-user .user-bg .user-hp{
+      text-align: center; 
+      margin-top:5px;
+}
 
+.content-main .content-main-r .cmr-user .user-bg .user-hp img{
+    border-radius: 50%;
+}
+
+.content-main .content-main-r .cmr-user .user-bg .user-welcome{
+    height:17px;
+    line-height:17px;
+    color:#3c3c3c;
+    text-align: center;
+    font-size:13px;
+}
+
+.content-main .content-main-r .cmr-user .user-bg .user-tjb{
+    height:20px;
+    line-height:20px;
+    text-align:center;
+}
+
+.content-main .content-main-r .cmr-user .user-bg .user-tjb a{
+    display:inline-block;
+    font-size:12px;
+    color:#ff5000;
+    margin-right:2px;
+    width:90px;
+    background-color:#ffe4dd;
+    border-radius: 15px;
+}
+
+.content-main .content-main-r .cmr-user .user-logon{
+    text-align: center;
+    margin-top:15px;
+}
+
+.content-main .content-main-r .cmr-user .user-logon a{
+    color:#fff;
+    height:25px;
+    line-height:25px;
+    background-image: linear-gradient(to right,#ff5000 0,#ff6f06 100%);
+    border-radius: 5px;
+    font-size:14px;
+    font-weight:700;
+    padding:3px 20px;
+    margin-left:5px;
+
+}
 
 
 
