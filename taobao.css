@@ -371,6 +371,7 @@ html,body{
 
 .content-main .content-main-l .cml-top{
     height:522px;
+    border:1px solid black;
 }
 .content-main .content-main-l .cml-top .left-nav{
     float:left;
@@ -468,7 +469,104 @@ html,body{
 
 .content-main .cml-top .center-pic .ad{
     width:520;
-    height:206px;
+    height:205px;
     background-color:#fff;
 }
+
+.content-main .cml-top .ad-right{
+    /* border:1px solid black; */
+    float:right;
+    height:522px;
+    width:160px;
+    margin-top:10px;
+    font-size:12px;
+    color:#a1a1a1;
+}
+
+
+.content-main .cml-top .ad-right .top-pic{
+    height:280px;
+    width:160px;
+}
+
+
+.content-main .cml-top .ad-right .today-hot{
+    margin-top:8px;
+}
+
+.content-main .cml-top .ad-right .today-hot img{
+    height:200px;
+    width:160px;
+    margin-top:3px;
+}
+
+.content-main .content-main-l .cml-headlines{
+    width:880px;
+    height:75px;
+    border:1px solid black;
+    background-color:#fff;
+    margin-top:10px;
+    padding:10px;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content{
+    float:right;
+    width:685px;
+    height:73px;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content .hl-main{
+    float:right;
+    width:550px;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content img{
+    height:73px;
+    width:130px;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content .content-title{
+    height:28px;
+    color:#333;
+    line-height:28px;
+    overflow:hidden;
+    /* border:1px solid black; */
+    font-size:16px;
+    font-weight:500;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content .content-title .title:hover{
+    color:#f40;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content a{
+    margin-left:240px;
+    font-size:12px;
+    font-weight:400;
+    color:#999;
+    line-height:28px;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content a:hover{
+    color:#f40;
+}
+
+.content-main .content-main-l .cml-headlines .hl-content .content{
+    height:36px;
+    overflow:hidden;
+    margin-top:3px;
+    color:#999;
+    font-size:14px;
+    line-height:18px;
+    /* border:1px solid black; */
+}
+
+
+
+
+
+
+
+
+
 
