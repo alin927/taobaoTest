@@ -655,17 +655,27 @@ html,body{
 }
 
 .content-main .content-main-r .cmr-notice .notice-title{
-   height:24px;
+   height:26px;
    margin-top:4px;
    overflow:hidden;
+   line-height: 26px;
 }
 
 .content-main .content-main-r .cmr-notice .notice-title li{
     float:left;
     padding-left:23px;
-    font-size:14px;
 }
 
+.content-main .content-main-r .cmr-notice .notice-title li a{
+    font-size:13px;
+    color:#3c3c3c;
+}
+
+.content-main .content-main-r .cmr-notice .notice-title .selected{
+    border-bottom:2px solid #f40;
+    padding-bottom: 1px;
+    font-weight:600;
+}
 
 
 
