@@ -678,7 +678,22 @@ html,body{
 }
 
 
+.content-main .content-main-r .cmr-notice .notice-content li{
+    float:left;
+    padding-left:15px;
+    height:20px;
+    line-height:20px;
+    overflow: hidden;
+}
 
+.content-main .content-main-r .cmr-notice .notice-content li a{
+    color:#3c3c3c;
+    font-size:12px;
+}
+
+.content-main .content-main-r .cmr-notice .notice-content li .selected{
+    color:#ff5000;
+}
 
 
 
