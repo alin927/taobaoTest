@@ -318,6 +318,7 @@ html,body{
     line-height:20px;
     background-color:#fff;
 }
+/*************************顶部搜索区结束*********************/
 
 .system-nav {
     width:100%;
@@ -359,14 +360,12 @@ html,body{
     width:1190px;
     margin:0 auto;
     height:632px;
-    border:1px solid black;
 }
 
 .content-main .content-main-l{
     float:left;
     width:900px;
     height:100%;
-    border:1px solid black;
 }
 
 .content-main .content-main-l .cml-top{
@@ -379,7 +378,7 @@ html,body{
     font-size:14px;
     color:#3c3c3c;
     background-color:#fff;
-    width:190px;
+    width:189px;
     border:1px solid #f40;
 }
 
@@ -558,14 +557,14 @@ html,body{
 
 .content-main .content-main-r{
     float:right;
+    margin-top:10px;
     width:280px;
-    height:100%;
+    height:617px;
     background-color:#fff;
-    border:1px solid black;
 }
 
 .content-main .content-main-r .cmr-user{
-    height:132px;
+    height:135px;
     background:url('img/bg.png') no-repeat;
     background-size:100% 100%;
 
@@ -578,7 +577,6 @@ html,body{
 
 .content-main .content-main-r .cmr-user .user-bg .user-hp{
       text-align: center; 
-      margin-top:5px;
 }
 
 .content-main .content-main-r .cmr-user .user-bg .user-hp img{
@@ -650,7 +648,8 @@ html,body{
 }
 
 .content-main .content-main-r .cmr-notice{
-    height:108px;
+    padding-top:5px;
+    height:98px;
     width:290px;
 }
 
@@ -677,12 +676,12 @@ html,body{
     font-weight:600;
 }
 
-
 .content-main .content-main-r .cmr-notice .notice-content li{
     float:left;
+    padding-top:5px;
     padding-left:15px;
-    height:20px;
-    line-height:20px;
+    height:24px;
+    line-height:24px;
     overflow: hidden;
 }
 
@@ -695,6 +694,172 @@ html,body{
     color:#ff5000;
 }
 
+.content-main .content-main-r .cmr-function{
+    height:228px;
+}
+.content-main .content-main-r .cmr-function li{
+    float:left;
+    height:75px;
+    width:68px;
+    border:1px solid #f4f4f4;
+    text-align: center;
+    font-size:13px;
+}
 
+.content-main .content-main-r .cmr-function li a{
+    color:#333;
+} 
 
+.content-main .content-main-r .cmr-function li a span{
+    display:block;
+}
 
+.content-main .content-main-r .cmr-function .pic{
+    height:40px;
+    width:100%;
+}
+
+.content-main .content-main-r .cmr-function .chf{
+    background:url(img/pics.png) no-repeat 20px 10px;
+}
+
+.content-main .content-main-r .cmr-function .cx{
+    background:url(img/pics.png) no-repeat 20px -35px;
+}
+
+.content-main .content-main-r .cmr-function .lx{
+    background:url(img/pics.png) no-repeat 20px -77px;
+}
+
+.content-main .content-main-r .cmr-function .yx{
+    background:url(img/pics.png) no-repeat 20px -120px;
+}
+
+.content-main .content-main-r .cmr-function .cp{
+    background:url(img/pics.png) no-repeat 20px -165px;
+}
+
+.content-main .content-main-r .cmr-function .dy{
+    background:url(img/pics.png) no-repeat 20px -208px;
+}
+
+.content-main .content-main-r .cmr-function .jd{
+    background:url(img/pics.png) no-repeat 20px -252px;
+}
+
+.content-main .content-main-r .cmr-function .lc{
+    background:url(img/pics.png) no-repeat 20px -295px;
+}
+
+.content-main .content-main-r .cmr-function .zfw{
+    background:url(img/pics.png) no-repeat 20px -340px;
+}
+
+.content-main .content-main-r .cmr-function .yc{
+    background:url(img/pics.png) no-repeat 20px -385px;
+}
+
+.content-main .content-main-r .cmr-function .sdm{
+    background:url(img/pics.png) no-repeat 20px -430px;
+}
+
+.content-main .content-main-r .cmr-function .hcp{
+    background:url(img/pics.png) no-repeat 20px -473px;
+}
+
+.content-main .content-main-r .cmr-app{
+    height:115px;
+    width:100%;
+}
+
+.content-main .content-main-r .cmr-app .app-title{
+    height:30px;
+    line-height:30px;
+}
+
+.content-main .content-main-r .cmr-app .app-title .app-font{
+    font-size:13px;
+    color:#3c3c3c;
+    font-weight:600;
+    padding-left:10px;
+}
+
+.content-main .content-main-r .cmr-app .app-title .more{
+    color:#3c3c3c;
+    font-size:12px;
+    float:right;
+    padding-right:10px;
+}
+
+.content-main .content-main-r .cmr-app .app-title .more:hover{
+    color:#f40;
+}
+
+.content-main .content-main-r .cmr-app .app-pics{
+    height:85px;
+    padding-left:15px;
+}
+
+.content-main .content-main-r .cmr-app .app-pics li{
+    float:left;
+    height:42px;
+    width:50px;
+}
+
+.content-main .content-main-r .cmr-app .app-pics a{
+    display:block;
+    width:32px;
+    height:32px;
+    margin-left:7px;
+    margin-top:5px;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo1{
+    background:url(img/smalllogo1.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo2{
+    background:url(img/smalllogo2.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo3{
+    background:url(img/smalllogo3.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo4{
+    background:url(img/smalllogo4.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo5{
+    background:url(img/smalllogo5.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo6{
+    background:url(img/smalllogo6.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo7{
+    background:url(img/smalllogo7.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo8{
+    background:url(img/smalllogo8.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo9{
+    background:url(img/smalllogo9.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.content-main .content-main-r .cmr-app .app-pics .logo10{
+    background:url(img/smalllogo10.png) no-repeat;
+    background-size:100% 100%;
+}
